@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./assests/fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+:root {
+    --primary:hsl(75, 94%, 57%);
+    --color: hsl(0, 0%, 100%);
+    --btn-bg: hsl(0, 0%, 20%);
+    --card-bg: hsl(0, 0%, 12%);
+    --bg: hsl(0, 0%, 8%);
+    --card-w: 20rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif;
+
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background-color: var(--bg);
+    min-height: 100vh;
+    color: var(--color);
+}
+
+.container {
+    background-color: var(--card-bg);
+    max-width: var(--card-w);
+    margin: 5rem auto;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+a {
+    background-color: var(--btn-bg);
+    display: flex;
+    width: 100%;
+    color: var(--color);
+    text-decoration: none;
+   justify-content: center;
+    border-radius: 0.3rem;
+   padding: 0.6rem 0;
+}
+
+p {
+    text-align: center;
+    color: hsl(0, 0%, 80%);
+    font-size: 12px;
+}
+
+#address {
+    color: var(--primary);
+   
+}
