@@ -3,6 +3,7 @@
     src: url("./assests/fonts/Inter-VariableFont_slnt\,wght.ttf");
 }
 
+
 :root {
     --primary:hsl(75, 94%, 57%);
     --color: hsl(0, 0%, 100%);
